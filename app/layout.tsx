@@ -43,6 +43,11 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3247448649043357"
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body>
         {children}
